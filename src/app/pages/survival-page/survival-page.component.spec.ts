@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoTextBoxComponent } from './info-text-box.component';
+import { SurvivalPageComponent } from './survival-page.component';
 
-describe('InfoTextBoxComponent', () => {
-  let component: InfoTextBoxComponent;
-  let fixture: ComponentFixture<InfoTextBoxComponent>;
+describe('SurvivalPageComponent', () => {
+  let component: SurvivalPageComponent;
+  let fixture: ComponentFixture<SurvivalPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InfoTextBoxComponent ]
+      declarations: [ SurvivalPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InfoTextBoxComponent);
+    fixture = TestBed.createComponent(SurvivalPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

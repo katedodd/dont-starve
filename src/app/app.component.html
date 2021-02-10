@@ -1,7 +1,3 @@
-<div (click)=toggleDisplay() [@visibilityChangedLoad]='visibilityStateLoad'>
-  <app-title-font></app-title-font>
-</div>
-<div (click)=toggleDisplay() [@visibilityChangedMain]='visibilityStateMain'>
-  <app-top-bar></app-top-bar>
-  <app-main-display></app-main-display>
-</div>
+<app-top-bar></app-top-bar>
+
+<router-outlet></router-outlet>

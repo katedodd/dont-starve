@@ -7,8 +7,11 @@ import { AppComponent } from './app.component';
 import { MainDisplayComponent } from './main-display/main-display.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { TabbedViewerComponent } from './tabbed-viewer/tabbed-viewer.component';
-import { InfoTextBoxComponent } from './info-text-box/info-text-box.component';
-import { CowbellBoxComponent } from './cowbell-box/cowbell-box.component';
+
+import { TitleFontComponent } from './title-font/title-font.component';
+import { SurvivalPageComponent } from './pages/survival-page/survival-page.component';
+import { EnvironmentPageComponent } from './pages/environment-page/environment-page.component';
+import { PredatorPageComponent } from './pages/predator-page/predator-page.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
@@ -16,7 +19,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { TitleFontComponent } from './title-font/title-font.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,10 @@ import { TitleFontComponent } from './title-font/title-font.component';
     MainDisplayComponent,
     TopBarComponent,
     TabbedViewerComponent,
-    InfoTextBoxComponent,
-    CowbellBoxComponent,
     TitleFontComponent,
+    SurvivalPageComponent,
+    EnvironmentPageComponent,
+    PredatorPageComponent,
   ],
   imports: [
     BrowserModule,

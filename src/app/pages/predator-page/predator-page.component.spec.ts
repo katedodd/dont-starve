@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CowbellBoxComponent } from './cowbell-box.component';
+import { PredatorPageComponent } from './predator-page.component';
 
-describe('CowbellBoxComponent', () => {
-  let component: CowbellBoxComponent;
-  let fixture: ComponentFixture<CowbellBoxComponent>;
+describe('PredatorPageComponent', () => {
+  let component: PredatorPageComponent;
+  let fixture: ComponentFixture<PredatorPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CowbellBoxComponent ]
+      declarations: [ PredatorPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CowbellBoxComponent);
+    fixture = TestBed.createComponent(PredatorPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
